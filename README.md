@@ -1,2 +1,0 @@
-# izracungoriva
-Izracun goriva
