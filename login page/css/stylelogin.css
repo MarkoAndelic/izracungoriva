@@ -1,0 +1,16 @@
+html {
+	background-color: blue;
+}
+
+.login-box
+{
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 15%;
+	padding-left: 30%;
+	width: 60%;	
+}
+.login-box .checkbox input {
+	margin-left: 16%;
+}
+
