@@ -28,7 +28,8 @@ html {
 
 .login-box .checkbox input {
 	margin-top: 10px;
-	margin-left: 2px;
+	text-align: left;
+	margin-left: 0,5px;
 }
 
 .login-box button {
@@ -38,9 +39,9 @@ html {
 
 .login-box .checkbox.icheck {
 	width: 100px;
-	margin-left: 50px;
+	margin-left: 53px;
 }
 .login-box .checkbox.icheck label {
-	margin-left: 2px;
+	
 
 }
