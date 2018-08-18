@@ -2,15 +2,45 @@ html {
 	background-color: blue;
 }
 
-.login-box
-{
-	margin-left: 5%;
-	margin-right: 5%;
-	margin-top: 15%;
-	padding-left: 30%;
-	width: 60%;	
-}
-.login-box .checkbox input {
-	margin-left: 16%;
+.form input {
+	width: 300px;
 }
 
+.pass input {
+	width: 300px;
+	margin-top: 10px;
+}
+
+.login-box
+{
+	width: 380px;
+	height: 420px;
+	background: #000;
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	text-align: center;
+
+}
+
+.login-box .checkbox input {
+	margin-top: 10px;
+	margin-left: 2px;
+}
+
+.login-box button {
+	margin-left: 200px;
+	margin-top: 10px;
+}
+
+.login-box .checkbox.icheck {
+	width: 100px;
+	margin-left: 50px;
+}
+.login-box .checkbox.icheck label {
+	margin-left: 2px;
+
+}
