@@ -2,19 +2,20 @@
 <html>
 <head>
 	<title>Izračun potrošnje goriva</title>
-	<link rel="stylesheet" type="text/css" href="stlye.css">
+	<link rel="stylesheet" type="text/css" href="css/stlye.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 </head>
 <body>
 	<!--Naslov, koji je centriran-->
-<div class="container" id="naslov">
+<div class="container-fluid" id="naslov">
 	<div class="d-flex justify-content-center" class="naslov">
 		<h3>Izračun potrošnje goriva</h3>
 	</div>
 </div>
-<div class="container" id="UnosPodataka">
+<div class="container-fluid" id="UnosPodataka">
+	<div class="unospodataka">
 	<div class="row">
 		<div class="col-sm-12 col-md-3 col-lg-3 col-lx-3">
       		<p>Unesite prijeđene kilometre:</p>
@@ -33,18 +34,16 @@
       		<input type="text" name="cijenalplina" id="cijenalplina" placeholder="Unesi iznos u kn">
     	</div>
 	</div>
-</div>
-<div class="container" id="potrvrdaUnosa">
+<div class="container-fluid" id="potrvrdaUnosa">
 	<div class="potrvrdagumb">
 		<button onclick="izracun()" type="button" class="btn btn-primary" >Potrvdi unos</button>
 	</div>
 </div>
-<div class="container" id="rezultat">
+<div class="container-fluid" id="rezultat">
 	<p>Potrosnja vaseg ljubimca je: <p id="ispisRezultata"></p></p>
 	<p>Potrošnja auta ukoliko bi ugradili plin: <p id="potrosnjaPlina"></p>
 	<p>Trošak ukoliko je ugrađen plin: <p id="cijnaVoznjeNaPlin"></p>
-
-
+</div>
 </div>
 
 	
@@ -63,6 +62,6 @@
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<script type="text/javascript" src="script.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
