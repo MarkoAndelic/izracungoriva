@@ -1,21 +1,25 @@
 html {
-	background-color: blue;
+	background-color: #c9d8c5;
+}
+
+.login-box h3 {
+	margin-top: 20px;
 }
 
 .form input {
-	width: 300px;
+	width: 307px;
 }
 
 .pass input {
-	width: 300px;
+	width: 307px;
 	margin-top: 10px;
 }
 
 .login-box
 {
 	width: 380px;
-	height: 420px;
-	background: #000;
+	height: 280px;
+	background: #a8b6bf;
 	color: #fff;
 	top: 50%;
 	left: 50%;
@@ -29,12 +33,13 @@ html {
 .login-box .checkbox input {
 	margin-top: 10px;
 	text-align: left;
-	margin-left: 0,5px;
+	margin-left: 0px;
 }
 
 .login-box button {
-	margin-left: 200px;
+	margin-left: 110px;
 	margin-top: 10px;
+	text-align: right;
 }
 
 .login-box .checkbox.icheck {
