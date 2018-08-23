@@ -11,9 +11,17 @@ function izracun(){
 	
 	document.getElementById("potrosnjaPlina").innerHTML = potrosnjaPlin.toFixed(2) + " l/km";
 
-	var cijenaVoznjeNaPlin =(prijedenikm / potrosnjaPlin) * cijenaplina;
+	var cijenaVoznjeNaPlin =((prijedenikm / potrosnjaPlin) * cijenaplina) * 12;
 
 	document.getElementById("cijnaVoznjeNaPlin").innerHTML = cijenaVoznjeNaPlin.toFixed(2) + " kn";
 }
 
+var Plin = document.getElementById(cijenaVoznjeNaPlin).value;
+var Gorivo = document.getElementById(potrosnjaPlin).value;
+var Graf = document.getElementById(GrafPotrosnje).getContext('2d');
+var barGraf = new Chart(Graf, {
+	type: 'bar'
 
+			
+
+})

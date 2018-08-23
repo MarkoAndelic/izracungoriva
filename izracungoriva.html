@@ -6,6 +6,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
 </head>
 <body>
 	<!--Naslov, koji je centriran-->
@@ -14,6 +15,7 @@
 		<h3>Izračun potrošnje goriva</h3>
 	</div>
 </div>
+<!--Unos podataka -->
 <div class="container-fluid" id="UnosPodataka">
 	<div class="unospodataka">
 	<div class="row">
@@ -34,16 +36,22 @@
       		<input type="text" name="cijenalplina" id="cijenalplina" placeholder="Unesi iznos u kn">
     	</div>
 	</div>
+<!--Potvrda unosa -->
 <div class="container-fluid" id="potrvrdaUnosa">
-	<div class="potrvrdagumb">
+	<div class="potvrdagumb">
 		<button onclick="izracun()" type="button" class="btn btn-primary" >Potrvdi unos</button>
 	</div>
 </div>
+<!-- Ispis rezultata -->
 <div class="container-fluid" id="rezultat">
 	<p>Potrosnja vaseg ljubimca je: <p id="ispisRezultata"></p></p>
 	<p>Potrošnja auta ukoliko bi ugradili plin: <p id="potrosnjaPlina"></p>
 	<p>Trošak ukoliko je ugrađen plin: <p id="cijnaVoznjeNaPlin"></p>
 </div>
+</div>
+<!-- Graf potrosnje -->
+<div class="container-fluid">
+	<canvas id="GrafPotrosnje"></canvas>
 </div>
 
 	

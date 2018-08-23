@@ -27,5 +27,14 @@ html {
 }
 
 .potvrdagumb {
-	padding-left: 100px;
+	padding-top: 20px;
+}
+
+.unospodataka p {
+	margin-top: 10px;
+}
+
+#prijedenikm, #cijenalgoriva, #cijenalplina,  input {
+	margin-top: 25px;
+
 }
